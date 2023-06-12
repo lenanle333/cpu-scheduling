@@ -14,5 +14,5 @@ To run the program, follow these steps:
      ```
 3. For example, to simulate CPU scheduling with three processors:
      ```
-     ./scheduler PCB.bin 1 0.4 2 0.5 3 0.1
+     ./scheduler A.bin 1 0.4 2 0.5 3 0.1
      ```
