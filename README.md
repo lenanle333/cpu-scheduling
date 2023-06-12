@@ -9,10 +9,10 @@ To run the program, follow these steps:
    ```
    g++ main.cpp  -o scheduler
 2. Run the program with the following command-line arguments:
-  ```
-  ./scheduler A.bin <algorithm_1> <load_1> <algorithm_2> <load_2> ...
-  ```
+     ```
+     ./scheduler A.bin <algorithm_1> <load_1> <algorithm_2> <load_2> ...
+     ```
 3. For example, to simulate CPU scheduling with three processors:
-  ```
-  ./scheduler PCB.bin 1 0.4 2 0.5 3 0.1
-  ```
+     ```
+     ./scheduler PCB.bin 1 0.4 2 0.5 3 0.1
+     ```
