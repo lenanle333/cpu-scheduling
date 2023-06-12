@@ -6,13 +6,13 @@ This repository contains a program written in C for simulating CPU scheduling an
 ## Instructions
 To run the program, follow these steps:
 1. Compile the source code using a C++ compiler:
-   ```plaintext
+   ```
    g++ main.cpp  -o scheduler
-2. Run the program with the following command-line arguments: 
+2. Run the program with the following command-line arguments:
   ```
   ./scheduler A.bin <algorithm_1> <load_1> <algorithm_2> <load_2> ...
   ```
-3. For example, to simulate CPU scheduling with three processors: 
+3. For example, to simulate CPU scheduling with three processors:
   ```
   ./scheduler PCB.bin 1 0.4 2 0.5 3 0.1
   ```
